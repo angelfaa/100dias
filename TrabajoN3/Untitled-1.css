@@ -1,0 +1,83 @@
+*{    
+    box-sizing: border-box;
+    
+}
+body{
+    margin: 0;
+    overflow-x:hidden;
+    flex-direction: column;
+}
+
+/*-----Barra de navegador-----*/
+a{
+    text-decoration: none;
+}
+.navbar{
+    background-color: rgba(0, 0, 0, 0.9);
+}
+.navbe{
+    
+    width: 100%;
+    Position:fixed;
+    z-index: 2;
+    background: url("el_androide_libre_113750392_180088474_1024x576.jpg");
+}
+.ul2{
+    position: relative;
+    left:350px;
+}
+/*-----seccion 1-----*/
+.contenedor{
+    position: relative;
+    top: 50px;
+}
+.Primera{
+    
+    background-image: linear-gradient(rgba(255, 255, 255, 0.3), rgba(0, 0, 0,.5)),url(fondomu-1024x640.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    min-height:500px
+}
+.Primera .primera2{
+    background-color: rgba(255,255,255,.5);    
+    margin:5px auto;
+    height: 260px;
+}
+.Primera .primera2 p{
+    color: #000;
+    font-size: 19px; 
+    display:inline-block;
+    vertical-align: middle;
+}
+/*-----seccion 2-----*/
+.navbes{
+    width: 100%;
+    height: 50px;
+    background-color: #000;
+}
+
+
+.segunda{
+    background-image:url("dk/2ffcf6482603720d960f42b8e2c39ac5.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    min-height: 450px;
+}
+.segunda .h1{
+    color: rgb(255, 0, 0);
+    text-align: center;
+}
+.row h1{
+    color: #fff;
+    font-size:30px
+}
+.segunda h2{
+    font-size: 20px;
+    color: #fff;
+}
+.segunda2{
+    margin: 20PX auto 0;
+}
+.segunda div.row{
+    margin-bottom: 10px;
+}

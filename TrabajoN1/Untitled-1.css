@@ -1,0 +1,70 @@
+*{
+    box-sizing: border-box;
+}
+
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    background-color: rgba(255,0,0);
+    background: url("el_androide_libre_113750392_180088474_1024x576.jpg");
+    overflow: hidden;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+/*-----Barra de navegador-----*/
+.navbar{
+    background-color: rgba(0, 0, 0, 0.9);
+}
+.ul2{
+    position: relative;
+    left:350px;
+}
+ul{
+    margin: 0;
+    padding: 0;
+}
+li{
+    list-style-type:none;
+    margin:0;
+    padding:0;
+}
+.btn-outline-danger{
+    margin:15px 0 0 0 ;
+}
+.boton2{
+    margin:10px 0 0 0 ;
+    background-color: rgba(25, 0, 0, 0.842);
+    border: none;
+    
+}
+div.col-12 h1{
+    text-align: center;
+}
+div.col-12{    
+    background-color: rgba(25, 0, 0, 0.842);
+    max-width: 500px;
+    position: relative;
+    top:25%;
+    margin:auto;
+    color: #fff;
+  
+}
+
+.rows h1{
+    text-align: center!important;
+}
+.contain-flex{ 
+    height:100%;
+}
+.col-lg-11{
+    width:20px;
+}
+div.col-12 p{
+    text-align: center;
+}
+div.col-12 a{
+    text-decoration: none;
+}
+div.col-12 a:hover{color:rgb(233, 114, 114)
+}

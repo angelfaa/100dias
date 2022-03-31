@@ -1,0 +1,28 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+}
+.teclado{
+    border: 1px solid yellow;
+    width:100%;
+    background-color: rgba(0, 0, 0, 0.801);
+}
+.botones{
+    margin: auto;
+    border: 1px solid black;  
+    width:100%;
+}
+.calculadora{
+    margin: 100px auto;
+    border: 1px solid red;
+    max-width: 600px;
+    height: 450px;
+}
+.resultados{
+    height: 200px;    
+    background-color: #000;
+}
+.btn{
+    height:49px;
+    font-family: roboto;
+}
